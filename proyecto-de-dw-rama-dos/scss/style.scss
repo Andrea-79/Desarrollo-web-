@@ -1,0 +1,93 @@
+main{
+    h1{
+        text-align: center;
+        font-family: 'Droid Serif', serif;
+    }
+
+    p{
+        text-align: center;
+        margin: auto;
+        width: 100%;
+        max-width: 80%;
+    }
+}
+
+section{
+    h1{
+        text-align: center;
+        font-family: 'Droid Serif', serif;
+    }
+
+    p{   
+        text-align: center;
+        margin: auto;
+        width: 100%;
+        max-width: 80%;
+    }
+}
+
+
+@import "base/variables";
+@import "base/listas";
+@import "base/mixin";
+@import "base/extend";
+
+h1{
+    color: $color-principal;
+}
+
+.logo img{
+    width: $medida-logo;
+}
+
+.ult-seccion{
+   @extend %grid;
+}
+
+.p-inicio{
+    @include parrafos;
+}
+
+.enologo{
+    @include parrafos;
+
+}
+
+.parrafo1-nos{
+    @include parrafos;
+
+}
+
+.ingeniero{
+    @include parrafos;
+
+}
+
+.horarios{
+    @include parrafos;
+    @include centrar-visita;
+}
+
+.como-llegar{
+    @extend %mapas-y-texto;
+}
+
+.imgMendoza img{
+    @include img-secundarias;
+}
+
+.cyp .costa{
+    @include parrafos;
+}
+
+.gran-medalla .parr-medalla{
+    @include parrafos;
+}
+
+.iscay .parrafo {
+    @include parrafos;
+}
+
+.formulario .titulo-form h1{
+    color: nth($colores, 2);
+}

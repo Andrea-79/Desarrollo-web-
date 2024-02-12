@@ -1,0 +1,481 @@
+main h1 {
+  font-family:Georgia, 'Times New Roman', Times, serif}
+
+main p {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  max-width: 80%; }
+
+section h1 {
+  text-align: center;
+  font-family: 'Droid Serif', serif; }
+
+section p {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  max-width: 80%; }
+
+img{
+  max-width: 100%;
+}
+
+p{
+  font-size: 18px;
+}
+
+
+.como-llegar {
+  font-size: x-large;
+  margin-top: 50px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "mapa horarios";
+  justify-content: center;
+  justify-items: center;
+  padding: auto; 
+  margin-bottom: 80px;}
+
+h1 {
+  color: #A43B50; }
+
+.logo img {
+  width: 250px; 
+}
+
+.video{
+  text-align: center;
+  margin: 50px;
+}
+.parMendoza{
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  max-width: 80%;
+  font-size: x-large;
+  color: #666;
+}
+
+.encabezado{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+.intro h1{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.p-inicio {
+  text-align: center;
+  width: 100%;
+  max-width: 80%;
+  font-size: x-large;
+  color: #666;
+  margin: 0 auto; 
+}
+
+.subtitulo h2{
+  text-align: center;
+  color: #A43B50;
+  font-family: 'Droid Serif', serif;
+}
+
+.conocenos{
+  display: flex;
+  flex-direction: row;
+}
+
+.enologo {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  max-width: 80%;
+  font-size: x-large;
+  color: #666; }
+
+.parrafo1-nos {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  max-width: 80%;
+  font-size: x-large;
+  color: #666; }
+
+.ingeniero {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  max-width: 80%;
+  font-size: x-large;
+  color: #666; }
+
+.horarios {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  max-width: 80%;
+  font-size: x-large;
+  color: #666;
+  margin: 60px 0px 20px; }
+
+  .imgMendoza img {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.cyp .costa {
+  text-align: center;
+    width: 100%;
+    max-width: 944px;
+    margin: 50px auto;
+    font-size: x-large;
+    color: #666;}
+
+
+.gran-medalla .parr-medalla {
+  text-align: center;
+  width: 100%;
+  max-width: 944px;
+  margin: 50px auto;
+  font-size: x-large;
+  color: #666;}
+
+.iscay .parrafo  {
+  text-align: center;
+    width: 100%;
+    max-width: 944px;
+    margin: 50px auto;
+    font-size: x-large;
+    color: #666;
+}
+
+.formulario .titulo-form h1 {
+  color: #851c1c; }
+
+
+  .iscay h2{
+    text-align: center;
+    margin: 2rem;
+    font-size:xx-large;
+    color: #A43B50;
+    font-family: 'Droid Serif', serif;
+  }
+  
+  .iscay-img img  {
+    max-width: 49%;
+    height: auto;
+    padding:20px;
+    display: inline-block;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  }
+  
+  .im-secundarias{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "img img ";
+    margin: 70px auto;
+    max-width: 500px;
+  
+  }
+  
+  .im-secundarias img{
+    width: 60%;
+  }
+  
+  .gran-medalla h2{
+    text-align: center;
+    margin: 2rem;
+    font-size:xx-large;
+    color: #A43B50;
+    font-family: 'Droid Serif', serif;
+  }
+  
+  .medalla img{
+    max-width: 49%;
+    height: auto;
+    padding:20px;
+    display: inline-block;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  }
+  
+  .secundarias-medalla{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin: 70px auto;
+    max-width: 1000px;
+  }
+  
+  .secundarias-medalla img{
+    width: 60%;
+  }
+  
+  .cyp h2{
+    text-align: center;
+    margin: 2rem;
+    font-size:xx-large;
+    color: #A43B50;
+    font-family: 'Droid Serif', serif;
+  }
+  
+  .costa-y-pampa img{
+    max-width: 49%;
+    height: auto;
+    padding:20px;
+    display: inline-block;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;}
+  
+  .secundarias-costa {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+     margin: 70px auto;
+    max-width: 1000px;
+   
+  }
+  .secundarias-costa img{
+    width: 60%;
+  }
+  
+  .logo-footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 70px;
+
+  }
+.logo-footer img:hover  {filter: opacity(.5);
+}
+
+.logo-footer img{
+  width: 250px;
+
+}
+
+
+.logo:hover {filter: opacity(.5);}
+
+.estacion{
+  text-align: center;
+  width: 100%;
+  font-size: x-large;
+  color: #666;
+  max-width: 1326px;
+  margin: 20px auto 20px auto;
+}
+
+.sentidos h1{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.sentidos .par-sentidos {
+  text-align: center;
+  width: 100%;
+  font-size: x-large;
+  color: #666;
+  max-width: 1326px;
+  margin: 20px auto 20px auto;
+}
+
+.recuadro .mas-img img{
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.recuadro .mas-img{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto ;
+  grid-template-areas: "img img img"
+                       "img img img"
+                       ;
+  justify-content: space-around;
+                       
+}
+
+.recuadro .disfruta {
+ text-align: center ;
+ margin-top: 50px;
+}
+
+.recuadro .disfruta {
+  text-align:center;
+  font-size: xx-large;
+  color: #A43B50;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+.reserva{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.reserva h2{
+  text-align: center;
+  color: #666;
+}
+.reserva p{
+  margin-bottom: 80px;
+  font-size: x-large;
+  color: #666;
+}
+
+.ult-seccion {
+  display: grid;
+  grid-template-columns:  1fr 1fr ;
+  grid-template-rows: auto;
+  grid-template-areas: "mapa-restaurant reserva ";
+  margin-top: 50px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.mapa-restaurant img{
+  text-align: center;
+}
+
+.est-83 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.est-83 img{
+  width: 33.33%;
+}
+
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formulario form{
+  font-size: x-large;
+  margin-bottom: 0px;
+}
+
+.foot-contacto{
+  margin-top: 350px;
+}
+  
+
+  .vinos .botellas{
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto;
+    grid-template-areas: "img img";
+    justify-content: space-around;
+  }
+
+  .botellas img{
+    width: 700px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 10%;
+    margin-bottom: 15%;
+  }
+
+  .vinos h2{
+    text-align: center;
+    color: #A43B50;
+    font-family: 'Droid Serif', serif;
+    margin-bottom: 10%;
+
+  }
+
+
+@media only screen and (max-width: 910px) {
+  .como-llegar{
+    display: block;
+    text-align: center;
+  }
+
+  .horarios{
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+
+  .ult-seccion{
+    display: block;
+    text-align: center;
+  }
+
+  .ult-seccion .reserva{
+    margin-top: 50px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+.est-83{
+  display: block;
+ 
+}
+
+.im-secundarias{
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+
+}
+
+.secundarias-medalla{
+  grid-template-columns: repeat(2, 1fr);
+
+}
+
+.secundarias-medalla img{
+    width: 100%;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.secundarias-costa{
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.secundarias-costa img{
+    width: 100%;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.est-83 img{
+  width: 100%;
+}
+
+
+}
+
+@media (max-width: 600px){
+
+  .iscay-img img{
+    max-width: 100%;
+  }
+  
+  .medalla img{
+    max-width: 100%;
+
+  }
+
+  .costa-y-pampa img{
+    max-width: 100%;
+  }
+}

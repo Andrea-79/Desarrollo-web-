@@ -1,0 +1,28 @@
+%box-model{
+    margin: 3rem;
+    padding: 2rem;
+}
+
+%grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "mapa-restaurant reserva";
+    justify-content: center;
+}
+
+%mapas-y-texto{
+  font-size:x-large;
+  margin-top: 50px;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+
+  grid-template-areas: "mapa horarios";
+  justify-content: center;
+  justify-items: center;
+  padding: auto;
+}
+
